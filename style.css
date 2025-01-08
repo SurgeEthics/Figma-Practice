@@ -54,7 +54,7 @@
 }
 
 .link:hover{
-    background-color: #FFF7EB;
+    background-color: #FFF5Ef;
     color: #515151;
     padding: 5px 10px;
 }
@@ -86,7 +86,7 @@
 .sec2{
     width: 100%;
     background-color: #FFF7EB;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .selector{
@@ -110,6 +110,8 @@
     gap: 10px;
     padding-bottom: 15px;
 }
+
+
 
 .btn2{
     background-color: #ff6b00;
@@ -138,7 +140,7 @@
     display: flex;
     width: 1140px;
     height: 770px;
-    margin: 0 auto; margin-bottom: 100px;
+    margin: 0 auto; margin-bottom: 150px;
 }
 
 .selector4{
@@ -166,11 +168,6 @@
     gap: 10px;
 }
 
-.icon{
-    width: 60px;
-    height: 58px;
-}
-
 .selector8{
     display: flex;
     gap: 10px;
@@ -182,7 +179,7 @@
 
 .sec3{
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .title{
@@ -192,4 +189,64 @@
     width: 1140px;
     margin: 0 auto;
 }
+
+.frame{
+    width: 18px;
+    height: 18px;
+}
+
+.title0{
+    font-size: 17px;
+    line-height: 1.02em;
+}
+
+.title1{
+    font-size: 44px;
+    font-weight: 700; 
+}
+
+.grid_container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    width: 1140px;
+    margin: 0 auto;  
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 21px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #FFF2D1; border-radius: 7px;
+    transition: all 0.7s;
+}
+
+.category:hover{
+    background-color: #FFF2D1;
+    border: 1px solid #ffffff; border-radius: 7px;
+}
+
+.icon{
+    width: 55px;
+    height: 55px;
+}
+
+.title2{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 20px 0px 15px 0px;
+}
+
+.para{
+    color: #606060;
+    font-size: 16px;
+}
+
+
+/*Grid-Container2*/
 
