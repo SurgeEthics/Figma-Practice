@@ -105,6 +105,12 @@
     padding-right: 20px;
 }
 
+.menu{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+
 .btn2{
     background-color: #ff6b00;
     border: none; border-radius: 5px;
@@ -170,3 +176,20 @@
     gap: 10px;
     height: 24px;
 }
+
+
+/*Grid-Container*/
+
+.sec3{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1140px;
+    margin: 0 auto;
+}
+
