@@ -1,6 +1,6 @@
 *{
  box-sizing: border-box;
- padding: 0; margin: 0 auto;
+ padding: 0; margin: 0;
 }
 
 
@@ -14,8 +14,8 @@
 }
 
 #sec{
+    width: 100%;
     background-color: #fff;
-    margin: 0 auto;
 }
 
 .container{
@@ -24,13 +24,13 @@
     width: 1140px;
     height: 100px;
     align-items: center;
+    margin: 0 auto; 
 }
 
 .container1{
     width: 15%;
     display: flex;
     justify-content: start;
-    margin: 0;
 }
 
 .container2{
@@ -84,8 +84,9 @@
 /*Hero-Section*/
 
 .sec2{
+    width: 100%;
     background-color: #FFF7EB;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .selector{
@@ -93,6 +94,7 @@
     flex-flow: row nowrap;
     width: 1140px;
     height: 800px;
+    margin: 0 auto;
 }
 
 .selector1{
@@ -102,10 +104,6 @@
     justify-content: center;
     padding-right: 20px;
 }
-
-/*.selector2{
-
-}*/
 
 .btn2{
     background-color: #ff6b00;
@@ -121,9 +119,54 @@
     text-decoration: none;
 }
 
-.selector3{
+.selector2{
     width: 40%;
     background: url(./image/img.png) center no-repeat scroll;
     background-size: cover;
 }
 
+
+/*Hero2-Section*/
+
+.selector3{
+    display: flex;
+    width: 1140px;
+    height: 770px;
+    margin: 0 auto; margin-bottom: 100px;
+}
+
+.selector4{
+    width: 40%;
+    background: url(./image/img2.png) center no-repeat scroll;
+    background-size: cover;
+}
+
+.selector5{
+    width: 60%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.selector6{
+    display: flex;
+    gap: 30px;
+    height: 58px;
+}
+
+.selector7{
+    display: flex;
+    gap: 10px;
+}
+
+.icon{
+    width: 60px;
+    height: 58px;
+}
+
+.selector8{
+    display: flex;
+    gap: 10px;
+    height: 24px;
+}
