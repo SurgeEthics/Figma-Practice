@@ -54,7 +54,7 @@
 }
 
 .link:hover{
-    background-color: #FFF5Ef;
+    background-color: #FFF5EF;
     color: #515151;
     padding: 5px 10px;
 }
@@ -227,7 +227,7 @@
 }
 
 .category:hover{
-    background-color: #FFF2D1;
+    background-color: #FFF5EF;
     border: 1px solid #ffffff; border-radius: 7px;
 }
 
@@ -250,4 +250,210 @@
 
 
 /*Grid-Container2*/
+
+.sec4{
+    width: 100%;
+    background-color: #FFF5EF;
+    padding: 80px 0px;
+}
+
+.grid_container2{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    width: 1140px;
+    margin: 0 auto;  
+}
+
+.category0{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.category1{
+    display: flex;
+    width: 100%;
+    column-gap: 20px;
+}
+
+.category2{
+    padding: 30px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #FFF2D1; border-radius: 7px;
+    transition: all 0.7s;
+}
+
+.category2:hover{
+    background-color: #FFF2D1;
+    border: 1px solid #ffffff; border-radius: 7px;
+}
+
+.title3{
+    color: #000;
+    font-size: 21px;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.title4{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 20px 0px;
+}
+
+
+/*Grid-Container3*/
+
+.sec5{
+    width: 100%;
+    background: url(./image/background.png);
+    margin-bottom: 150px;
+    padding: 80px 0px;
+}
+
+.grid_container3{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 364.66px 364.66px 364.67px;
+    width: 1140px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.category3{
+    width: 100%;
+    min-height: 500px;
+    align-content: center;
+    text-align: center;
+    border: 1px solid #ff6a00b9; border-radius: 7px;
+    transition: all 0.7s;
+}
+
+.category3:hover{
+    border: 1px solid #ff6b00; border-radius: 7px;
+}
+
+.C1{
+    background: #03426D url(./image/bg01.png) center no-repeat scroll;
+    background-size: cover;
+}
+
+.C2{
+    background: #03426D url(./image/bg02.png) center no-repeat scroll;
+    background-size: cover;
+}
+
+.C3{
+    background: #03426D url(./image/bg03.png) center no-repeat scroll;
+    background-size: cover;
+}
+
+.C4{
+    background: #03426D url(./image/bg04.jpg) center no-repeat scroll;
+    background-size: cover;
+}
+
+.C5{
+    background: #03426D url(./image/bg05.png) center no-repeat scroll;
+    background-size: cover;
+}
+
+.C6{
+    background: #03426D url(./image/bg06.png) center no-repeat scroll;
+    background-size: cover;
+}
+
+.url{
+    background-color: #ff6a00b9;
+    color: #f5f0e9; text-align: center; text-decoration: none; font-size: 21px; font-weight: 500; font-style: normal;
+    padding: 10px 20px;
+    border: 3px solid #ff6a00b9; border-radius: 7px;
+    transition: all 0.7s;
+}
+
+.url:hover{
+    background-color: #ff6b00;
+    color: #ffffff;
+    border: 3px solid #ffffff; border-radius: 7px;
+}
+
+
+/*Grid-Container4*/
+
+.grid_container4{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 364.66px 364.66px 364.67px;
+    width: 1140px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.category04{
+    align-content: center;
+    background-color: #FFF5EF;
+    width: 100%;
+    padding: 53px 30px;
+    border: none; border-radius: 7px;
+}
+
+.category4{
+    display: flex;
+    gap: 20px; 
+}
+
+.title5{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+/*Grid-Container5*/
+
+.grid_container5{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 210px 210px 210px 210px 210px;
+    width: 1140px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.category5{
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 40px;
+    border: 1px solid #FFE2D1; border-radius: 7px;
+}
+
+
+/*Grid-Container6*/
+
+.category6{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #FFE2D1; border-radius: 7px;
+}
+
+.para2{
+    color: #ff6b00;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.pic{
+    width: 364.66px;
+    height: 300px;
+}
+
+.meta{
+    padding: 20px;
+}
+
+
 
