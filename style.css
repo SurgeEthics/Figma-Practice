@@ -316,7 +316,7 @@
 .grid_container3{
     display: grid;
     gap: 20px;
-    grid-template-columns: 364.66px 364.66px 364.67px;
+    grid-template-columns: 366.66px 366.66px 366.67px;
     width: 1140px;
     margin: 0 auto;
     background-color: transparent;
@@ -325,14 +325,15 @@
 .category3{
     width: 100%;
     min-height: 500px;
-    align-content: center;
+    align-content: end;
+    padding-bottom: 40px;
     text-align: center;
-    border: 1px solid #ff6a00b9; border-radius: 7px;
+    border: 2px solid #FFE2D1; border-radius: 7px;
     transition: all 0.7s;
 }
 
 .category3:hover{
-    border: 1px solid #ff6b00; border-radius: 7px;
+    border: 2px solid #ff6b00; border-radius: 7px;
 }
 
 .C1{
@@ -366,10 +367,10 @@
 }
 
 .url{
-    background-color: #ff6a00b9;
-    color: #f5f0e9; text-align: center; text-decoration: none; font-size: 21px; font-weight: 500; font-style: normal;
+    background-color: #ff6a007e;
+    color: #000; text-align: center; text-decoration: none; font-size: 24px; font-weight: 500; font-style: normal;
     padding: 10px 20px;
-    border: 3px solid #ff6a00b9; border-radius: 7px;
+    border: 3px solid #ff6b00; border-radius: 7px;
     transition: all 0.7s;
 }
 
@@ -385,7 +386,7 @@
 .grid_container4{
     display: grid;
     gap: 20px;
-    grid-template-columns: 364.66px 364.66px 364.67px;
+    grid-template-columns: 366.66px 366.66px 366.67px;
     width: 1140px;
     margin: 0 auto;
     background-color: transparent;
@@ -416,7 +417,7 @@
 .grid_container5{
     display: grid;
     gap: 20px;
-    grid-template-columns: 210px 210px 210px 210px 210px;
+    grid-template-columns: 212px 212px 212px 212px 212px;
     width: 1140px;
     margin: 0 auto;
     background-color: transparent;
@@ -447,7 +448,7 @@
 }
 
 .pic{
-    width: 364.66px;
+    width: 366.66px;
     height: 300px;
 }
 
