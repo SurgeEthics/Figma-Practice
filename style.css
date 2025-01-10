@@ -67,7 +67,7 @@
 
 .btn1{
     background-color: #ff6b00;
-    border: none; border-radius: 5px;
+    border: 3px solid #ffffff; border-radius: 7px;
     padding: 10px 20px;
     margin: 0;
     cursor: pointer;
@@ -78,6 +78,15 @@
     font-size: 21px;
     font-weight: 700;
     text-decoration: none;
+}
+
+.btn1:hover{
+    background-color: transparent;
+    border: 3px solid #ff6b00; border-radius: 7px;
+}
+
+.contact-us:hover{
+    color: #ff6b00;
 }
 
 
