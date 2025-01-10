@@ -339,9 +339,8 @@
     gap: 20px;
     grid-template-columns: 366.66px 366.66px 366.67px;
     width: 1140px;
-    margin: 0 auto;
-    background-color: transparent;
     background: url(./image/background.png);
+    margin: 0 auto;
 }
 
 .category3{
@@ -411,7 +410,6 @@
     grid-template-columns: 366.66px 366.66px 366.67px;
     width: 1140px;
     margin: 0 auto;
-    background-color: transparent;
 }
 
 .category04{
@@ -442,7 +440,6 @@
     grid-template-columns: 212px 212px 212px 212px 212px;
     width: 1140px;
     margin: 0 auto;
-    background-color: transparent;
 }
 
 .category5{
@@ -512,7 +509,6 @@ Form Intro-Grid-Container7*/
     gap: 20px;
     grid-template-columns: auto auto;
     width: 100%;
-    background-color: transparent;
     
 }
 
