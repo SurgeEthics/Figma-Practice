@@ -592,9 +592,22 @@ Form Intro-Grid-Container7*/
     font-weight: 500;
 }
 
-.logo_social{
+.social{
+    display: flex;
+    justify-content: space-between;
     width: 228px;
     height: 42px;
+}
+
+.logo_social{
+    width: 42px;
+    height: 42px;
+}
+
+.logo_social:hover{
+    width: 42px;
+    height: 42px;
+    border: 2px solid #fff; border-radius: 6px;
 }
 
 .location{
