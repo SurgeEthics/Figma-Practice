@@ -4,7 +4,7 @@
 }
 
 
-/*Header*/
+/*-----Header-Start-----*/
 
 .jost{
     font-family: "Jost", serif;
@@ -81,27 +81,18 @@
     font-weight: 700;
 }
 
-
 .btn_contact:hover{
     background-color: transparent;
     border: 3px solid #ff6b00; border-radius: 7px;
 }
 
-.btn_contact:hover .btn_contact a{
+.btn_contact:hover a{
     color: #ff6b00;
 }
-
-/*.contact-us{
-    
-    
-}
-
-.contact-us:hover{
-    color: #ff6b00;
-}*/
+/*-----Header-End-----*/
 
 
-/*Hero-Section*/
+/*---Home-Hero-Flex-Container----Start*/
 
 .sec2{
     width: 100%;
@@ -141,10 +132,10 @@
     transition: all 0.7s;
 }
 
-.download-cv{
+.btn2 a{
     color: #fff;
     font-size: 21px;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none;
 }
 
@@ -153,7 +144,7 @@
     border: 3px solid #ff6b00; border-radius: 7px;
 }
 
-.download-cv:hover{
+.btn2:hover a{
     color: #ff6b00;
 }
 
@@ -162,9 +153,10 @@
     background: url(./image/img.png) center no-repeat scroll;
     background-size: cover;
 }
+/*---Home-Hero-Flex-Container----End*/
 
 
-/*Hero2-Section*/
+/*!---About-Flex-Container----Start*/
 
 .selector3{
     display: flex;
@@ -203,9 +195,10 @@
     gap: 10px;
     height: 24px;
 }
+/*!---About-Flex-Container----End*/
 
 
-/*Grid-Container*/
+/*--Services_Grid-Container--Start*/
 
 .sec3{
     width: 100%;
@@ -277,9 +270,10 @@
     color: #606060;
     font-size: 16px;
 }
+/*--Services_Grid-Container--End*/
 
 
-/*Grid-Container2*/
+/*--Resume-Grid-Container2--Start*/
 
 .sec4{
     width: 100%;
@@ -333,9 +327,10 @@
     font-weight: 500;
     padding: 20px 0px;
 }
+/*--Resume-Grid-Container2--End*/
 
 
-/*Grid-Container3*/
+/*--Portfolio-Grid-Image-Container3--*/
 
 .sec5{
     width: 100%;
@@ -410,9 +405,10 @@
     color: #ffffff;
     border: 3px solid #ffffff; border-radius: 7px;
 }
+/*--Portfolio-Grid-Image-Container3--End*/
 
 
-/*Grid-Container4*/
+/*--Testimonial-Grid-Container4--Start*/
 
 .grid_container4{
     display: grid;
@@ -440,9 +436,10 @@
     font-size: 24px;
     font-weight: 500;
 }
+/*--Testimonial-Grid-Container4--End*/
 
 
-/*Grid-Container5*/
+/*--Partners-Grid-Image-Container5--Start*/
 
 .grid_container5{
     display: grid;
@@ -459,9 +456,10 @@
     padding: 40px;
     border: 1px solid #FFE2D1; border-radius: 7px;
 }
+/*--Partners-Grid-Image-Container5--End*/
 
 
-/*Grid-Container6*/
+/*--Blog-Grid-Container6--Start*/
 
 .category6{
     display: flex;
@@ -499,10 +497,10 @@
 .meta{
     padding: 20px 30px 25px;
 }
+/*--Blog-Grid-Container6--End*/
 
 
-/*Container09+
-Form Intro-Grid-Container7*/
+/*---Contact-Form Intro-Container09---Start*/
 
 .container09{
     display: flex;
@@ -561,9 +559,10 @@ Form Intro-Grid-Container7*/
     display: flex;
     gap: 15px;
 }
+/*---Contact-Form Intro-Container09---End*/
 
 
-/*Footer-Grid-Flex-Container*/
+/*---Footer-Grid-Flex-Container---Start*/
 
 .sec6{
     background-color: #101010;
@@ -651,3 +650,4 @@ Form Intro-Grid-Container7*/
     margin: 0 auto;
     padding: 30px 0px;   
 }
+/*---Footer-Grid-Flex-Container---End*/
