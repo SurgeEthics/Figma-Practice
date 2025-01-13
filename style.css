@@ -65,7 +65,7 @@
     justify-content: end;
 }    
 
-.btn1{
+.btn_contact{
     background-color: #ff6b00;
     border: 3px solid #ffffff; border-radius: 7px;
     padding: 10px 20px;
@@ -74,21 +74,31 @@
     transition: all 0.7s;
 }
 
-.contact-us{
+.btn_contact a{
+    text-decoration: none;
     color: #fff;
     font-size: 21px;
     font-weight: 700;
-    text-decoration: none;
 }
 
-.btn1:hover{
+
+.btn_contact:hover{
     background-color: transparent;
     border: 3px solid #ff6b00; border-radius: 7px;
 }
 
-.contact-us:hover{
+.btn_contact:hover .btn_contact a{
     color: #ff6b00;
 }
+
+/*.contact-us{
+    
+    
+}
+
+.contact-us:hover{
+    color: #ff6b00;
+}*/
 
 
 /*Hero-Section*/
